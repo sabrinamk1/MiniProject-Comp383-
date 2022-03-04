@@ -1,5 +1,13 @@
 # MiniProject-Comp383-
 
+
+**Before you start, have these installed**
+
+1. Python3
+2. SRA Tool Kit 3.0.0
+3. SPAdes 3.15.4
+4. Prokka
+
 This is a Github Repo for py script. It functions as python wrapper to automate execution of software tools, in which the Ecoli K-12 strains will be sequenced again and assembled by runing the script. Resequencing is done to see the change in time from the original K-12 strain. 
 
 The py script will automate and product output file to "miniproject.log" and files in a folder named "results". All results generated will be written to this folder. This folder will be created via an os.system call. 
